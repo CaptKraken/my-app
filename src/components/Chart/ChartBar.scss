@@ -23,7 +23,10 @@
   }
   &__label {
     font-weight: bold;
-    font-size: 0.5rem;
+    font-size: 1rem;
     text-align: center;
+    @media only screen and (max-width: 768px) {
+      font-size: 0.5rem;
+    }
   }
 }

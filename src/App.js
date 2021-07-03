@@ -38,7 +38,8 @@ export default function App() {
   };
 
   return (
-    <div>
+    <div className="container">
+      <h1>Expense Tracker</h1>
       <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses items={expenses} />
     </div>
