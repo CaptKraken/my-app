@@ -1,0 +1,11 @@
+.expenses__total {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+
+  p {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin: 1rem 0;
+  }
+}
