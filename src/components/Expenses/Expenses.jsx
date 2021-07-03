@@ -17,7 +17,8 @@ export default function Expenses({ items }) {
   };
 
   const filteredExpenses = items.filter(
-    (expense) => expense.date.getFullYear() == filteredYear
+    (expense) =>
+      expense.date.getFullYear().toString() === filteredYear.toString()
   );
   return (
     <Card className="expenses">
